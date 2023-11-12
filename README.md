@@ -7,7 +7,10 @@ This project is created to improve the user experience of mersys.io, an educatio
 
 Domain : [mersys.io](https://www.mersys.io/), [test.mersys.io](https://test.mersys.io//)
 
+//### Mersys Campus
+//- **API Test with REST Assured :** [mersys.io_API_REST_Assured](https://github.com/SeymaKado/mersysio_restassured-master.git)
 
+//- **API Test with POSTMAN :** [mersys.io_API_Postman](https://github.com/SeymaKado/mersys.io_API_Testing-main.git)
 While Starting
 ---------------
 
@@ -20,8 +23,7 @@ Feature: While Starting
     Given Follow the path
       | File > New > Project From Version Control |
     When  Copy URL and paste
-     
-
+     |https://github.com/SeymaKado/mersys.io_Testing-master.git|
   Scenario: Open this project at your IDE
     Then Select JDK version for project
       | jdk1.8 |

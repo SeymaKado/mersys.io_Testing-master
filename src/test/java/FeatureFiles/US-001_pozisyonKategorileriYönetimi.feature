@@ -7,7 +7,7 @@ Feature: Position Categories Management
 
   @HR @Smoke @Regression
   Scenario Outline: Adding, editing and deleting Position Categories
-    Then The user click on the element in SidebarLocators
+    Then The user click on the element in SidebarLocatorss
       | humanResources          |
       | humanSetup              |
       | humanPositionCategories |
